@@ -11,17 +11,17 @@ just fix the existing ones.
 
 var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-funtion whoWins(isThereKryptonite, enemyName) {
+function whoWins(isThereKryptonite, enemyName) {
   if (!isThereKryptonite) {
     return "Superman beats " + enemyName + ", of course";
   } else {
-    return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyname + " could possibly win this one.";
+    return "Depends on how quick Superman can get rid of the Kryptonite. " + enemyName + " could possibly win this one.";
   }
 }
 
-for (var i = 0; i<enemies.length; i++) {
+for (var i = 0; i < enemies.length; i++) {
   var isThereKryptonite;
-  if (i%2 === 0) {
+  if (i % 2 === 0) {
     isThereKryptonite = true;
   } else {
     isThereKryptonite = false;
@@ -31,13 +31,13 @@ for (var i = 0; i<enemies.length; i++) {
 
 function howAttractedIsLoisLaneToMe() {
   // 1 is not at all attracted, 10 is "super" attracted...
-  return Math.floor((Math.random()*10)+1);
+  return Math.floor((Math.random() * 10) + 1);
 }
 
-consol.log(howAttractedIsLoisLaneToMe());
+console.log(howAttractedIsLoisLaneToMe());
 
-var clarkKent =true;
-var superman false;
+var clarkKent = true;
+var superman = false;
 
 while (clarkKent) {
   console.log("I'm just a nerdy columnist");
