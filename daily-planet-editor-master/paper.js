@@ -6,10 +6,14 @@ In short, you shouldn't need to add your own statements anywhere,
 just fix the existing ones.
 */
 
-
 // Written by Kent, Clark
 
+// FEEDBACK:
+
+// Looks great!! I'll just be nitpicky in the comments
+
 var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+// Spaces after commas can give it some whitespace to make it easier to read. 
 
 function whoWins(isThereKryptonite, enemyName) {
   if (!isThereKryptonite) {
