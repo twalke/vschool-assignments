@@ -1,0 +1,50 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(5vh, auto);
+  margin: 0 auto;
+}
+
+#titles {
+  grid-column: 1/13;
+  grid-row: 1/2;
+}
+#mainStory {
+  grid-column: 4/12;
+  grid-row: 2/3;
+  /* background-color: grey; */
+}
+#classified {
+grid-column: 2/4;
+grid-row: 2/3;
+/* background-color: blue; */
+}
+
+h1 {
+  text-align: center;
+}
+img {
+  /* grid-column: 1/4; */
+  /* width: 100px; */
+  max-width: 13vw;
+}
+
+.ads {
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.myBold {
+  font-weight: bold;
+}
+.myItalics {
+  font-style: italic;
+}
+.myHighlight {
+  background: yellow;
+}
+.myUnderline {
+  text-decoration: underline;
+}
