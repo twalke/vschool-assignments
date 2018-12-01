@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-size: 0px;
+}
+/* #container {
+  margin: auto;
+} */
+#pink {
+  background-color: #F5C6D6;
+  height: 100px;
+  border: 10px solid white;
+  width: 500px;
+  margin: auto;
+}
+#magentaBlock {
+  max-width: 500px;
+  margin: auto;
+}
+.magenta {
+  background-color: #EE2E84;
+  height: 100px;
+  border: 10px solid white;
+  width: 125px;
+  display: inline-block;
+  margin: auto;
+}
+#blueBlock {
+  max-width: 500px;
+  margin: auto;
+}
+.blue {
+  background-color: #85CFD8;
+  height: 100px;
+  border: 10px solid white;
+  width: 250px;
+  display: inline-block;
+  margin: auto;
+}
+#multiBlock {
+  max-width: 500px;
+  margin: auto;
+}
+#green {
+  background-color: #8DC63F;
+  height: 100px;
+  border: 10px solid white;
+  display: inline-block;
+  width: 375px;
+}
+#orange {
+  background-color: #E76E34;
+  height: 100px;
+  border: 10px solid white;
+  display: inline-block;
+  width: 125px;
+}
