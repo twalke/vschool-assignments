@@ -3,7 +3,7 @@ if(5>3) {
   console.log("is greater than");
 }
 
-if("cat" == 3) {
+if("cat".length == 3) {
   console.log("is the length");
 } else {
   console.log("is not length");
@@ -24,6 +24,8 @@ var person = {
 
 if(person.age >= 18) {
   console.log(person.name + " is allowed to go to the movie");
+} else {
+  console.log(person.name + " is not allowed to go to the movie");
 }
 
 if(person.name.startsWith("B")) {
@@ -72,3 +74,12 @@ if (notDefined == undefined) {
 } else {
   console.log("defined");
 }
+
+if ("Z"> 1) {
+  console.log("letter is greater");
+} else {
+  console.log("number is greater");
+}
+
+var myNum = 12;
+myNum%2 == 0 : console.log("myNum is even") ? console.log("myNum is odd");
