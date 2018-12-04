@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+  font-size: 0px;
+}
+.basicFlag {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 1px 15px;
+}
+.flagPositioning {
+  position: absolute;
+}
+.verticalorHorizontalBar {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#blue{
+  background-color: #0055A4;
+  height: 100%;
+  width: 33%;
+}
+#red {
+  background-color: #EF4135;
+  height: 100%;
+  width: 33%;
+  right: 0;
+}
+#germany {
+  margin-left: 310px;
+}
+#black {
+  background-color: black;
+  height: 33%;
+  width: 100%;
+}
+#redG {
+  background-color: red;
+  height: 33%;
+  width: 100%;
+  top: 33%;
+}
+#yellow {
+  background-color: yellow;
+  height: 68px;
+  width: 100%;
+  top: 66%;
+}
+#madagascar {
+  margin-left: 620px;
+}
+#redM {
+  background-color: #FC3D32;
+  width: 66%;
+  height: 50%;
+  right: 0;
+}
+#greenM {
+  background-color: #007E3A;
+  width: 66%;
+  height: 50%;
+  top: 50%;
+  right: 0;
+}
+#switzerland {
+  margin-left: 930px;
+  background-color: #d52b1e;
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+}
+#verticalWhite {
+  background-color: white;
+  width: 25%;
+  height: 75%;
+}
+#horizontalWhite {
+  background-color: white;
+  width: 75%;
+  height: 25%;
+}
+#sweden {
+  margin-top: 210px;
+  background-color: #006aa7 ;
+}
+#yellowVertical {
+  background-color: #fecc00;
+  width: 35px;
+  height: 100%;
+  left: 65px;
+}
+#yellowHorizontal {
+  background-color: #fecc00;
+  width: 100%;
+  height: 35px;
+  top: 65px;
+}
+#gambia {
+  margin-top: 210px;
+  margin-left: 310px;
+}
+#redGambia {
+  background-color: #CE1126;
+  width: 100%;
+  height: 68px;
+}
+#blueGambia {
+  background-color: #0C1C8C;
+  width: 100%;
+  height: 44px;
+  top: 78px;
+}
+#greenGambia {
+  background-color: #3A7728;
+  width: 100%;
+  height: 68px;
+  top: 66%;
+}
+#tonga {
+  width: 400px;
+  margin-top: 210px;
+  margin-left: 620px;
+  background-color: #C10000;
+}
+#whiteTonga {
+  background-color: white;
+  width: 40%;
+  height: 50%;
+}
+#verticalTonga {
+  background-color: #C10000;
+  width: 25px;
+  height: 75px;
+}
+#horizontalTonga {
+  background-color: #C10000;
+  width: 75px;
+  height: 25px;
+}
+#japan {
+  margin-top: 420px;
+}
+#redJapan {
+  background-color: #BC002D;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+#greece {
+  margin-top: 420px;
+  margin-left: 310px;
+  background-color: #0d5eaf;
+}
+#greeceBox {
+  background-color: #0d5eaf;
+  height: 110px;
+  width: 110px;
+}
+#greeceVertical {
+  background-color: white;
+  width: 22px;
+  height: 100%;
+}
+#greeceHorizontal {
+  background-color: white;
+  width: 100%;
+  height: 23px;
+}
+#greece1 {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  top: 22px;
+}
+#greece2 {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  top: 67px;
+}
+#greece3 {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  top: 110px;
+}
+#greece4 {
+  width: 100%;
+  height: 22px;
+  background-color: white;
+  top: 155px;
+}
+#niger {
+  margin-top: 420px;
+  margin-left: 620px;
+}
+#orangeNiger {
+  background-color: #E05206;
+  width: 100%;
+  height: 67px;
+}
+#orangeCircleNiger {
+  background-color: #E05206;
+  top: 67px;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#greenNiger {
+  background-color: #0DB02B;
+  width: 100%;
+  height: 67px;
+  top: 133px;
+}
+#maldives {
+  margin-top: 420px;
+  margin-left: 930px;
+  background-color: #d21034;
+}
+#maldivesGreen {
+  background-color: #007e3a;
+  width: 200px;
+  height: 100px;
+}
+#maldivesCircleWhite {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-40%, -50%);
+}
+#maldivesCircleGreen {
+  background-color: #007e3a;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-25%, -50%);
+}
+
+/* #belize {
+  background: red;
+  margin-top: 630px;
+}
+#blueBelize {
+  background-color: blue;
+  width: 100%;
+  height: 90%;
+  top: 5%;
+}
+#whiteBelize {
+  background-color: white;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+}
+#greenBelize {
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  left: 50%;
+  top: 17%;
+  transform: translate(-50%, -50%);
+}
+#whiteCircleBelize {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  left: 50%;
+  top: 17%;
+  transform: translate(-70%, -50%);
+} */
