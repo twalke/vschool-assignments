@@ -15,8 +15,8 @@ box.addEventListener("dblclick", function(e) {
   e.target.style.backgroundColor = "green";
 })
 
-box.addEventListener("wheel", function(e) {
-  e.target.style.backgroundColor = "orange";
+document.addEventListener("wheel", function(e) {
+  box.style.backgroundColor = "orange";
 })
 
 box.addEventListener("keydown", function(e) {
@@ -28,13 +28,17 @@ box.addEventListener("keydown", function(e) {
   }
 })
 
-// document.addEventListener("keydown", function(event) {
-//   console.log(event.which);
-// }
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
 document.addEventListener("keydown", function(e) {
-  console.log(e.which);
   var myNum= e.which;
-  console.log(myNum);
   if (myNum == 66) {
     box.style.backgroundColor = "blue";
   } else if(myNum == 82) {
@@ -45,5 +49,7 @@ document.addEventListener("keydown", function(e) {
     box.style.backgroundColor = "green";
   } else if(myNum == 79) {
     box.style.backgroundColor = "orange";
+  } else if (myNum == 88) {
+    box.style.backgroundColor = getRandomColor();
   }
 })
