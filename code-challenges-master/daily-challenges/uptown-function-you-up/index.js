@@ -1,16 +1,3 @@
-function getString() {
-    // Function 1 here
-}
-
-function reverse() {
-    // Function 2 here
-}
-
-function everyOther() {
-    // Function 3 here
-}
-
-// DO NOT change anything in this array
 var lyrics = [
     "This",
     "hit",
@@ -54,6 +41,24 @@ var lyrics = [
     "so",
     "pretty"
 ]
+function getString() {
+    lyrics.join(" ");
+    return lyrics;
+    console.log(lyrics)
+}
+getString();
+
+function reverse() {
+    lyrics.reverse(" ");
+    return lyrics;
+}
+
+function everyOther() {
+    // Function 3 here
+}
+
+// DO NOT change anything in this array
+
 
 module.exports = {
     getString,
