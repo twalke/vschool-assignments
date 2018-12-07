@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <form name="form">
+      <div class="action" id="add">
+        <h1>Add calculator</h1>
+        <label for="addOne"><input class="left" name="addOne" type="number"></label>
+        <div class="sign" id="plus">+</div>
+        <label for="addTwo"><input class="right" name="addTwo" type="number"></label>
+        <button class="button" id="addButton">=</button>
+        <div class="answer" id="addAnswer">0</div>
+      </div>
+      <div class="action" id="subtract">
+        <h1>Subtract calculator</h1>
+        <label for="subOne"><input class="left" name="subOne" type="number"></label>
+        <div class="sign" id="minus">-</div>
+        <label for="subTwo"><input class="right" name="subTwo" type="number"></label>
+        <button class="button" id="subButton">=</button>
+        <div class="answer" id="subAnswer">0</div>
+      </div>
+      <div class="action" id="multiply">
+        <h1>Multiply calculator</h1>
+        <label for="multiplyOne"><input class="left" name="multiplyOne" type="number"></label>
+        <div class="sign" id="multiplied">x</div>
+        <label for="multiplyTwo"><input class="right" name="multiplyTwo" type="number"></label>
+        <button class="button" id="multButton">=</button>
+        <div class="answer" id="multAnswer">0</div>
+      </div>
+  </form>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

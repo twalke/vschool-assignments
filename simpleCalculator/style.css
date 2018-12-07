@@ -1,0 +1,38 @@
+body {
+  background: -webkit-linear-gradient(to right, #a8ff78, #78ffd6);
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+.answer {
+  margin-left: 170px;
+  background-color: white;
+  height: 20px;
+  width: 130px;
+  margin-top: -28px;
+  padding: 5px;
+}
+button {
+  background-color: #4286f4;
+  color: white;
+  border: 1px solid white;
+}
+.action {
+  margin: 50px;
+}
+.sign {
+  margin-left: 60px;
+}
+.left {
+  padding: 5px;
+  outline: none;
+}
+.right {
+  padding: 5px;
+  outline: none;
+}
