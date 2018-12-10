@@ -1,0 +1,271 @@
+/* #ears {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  animation: bounce 1s infinite;
+  margin: 500px;
+  margin-left: 690px;
+  margin-top: 420px;
+  border-radius: 50%;
+} */
+#earsWhite {
+  position: absolute;
+  width: 170px;
+  height: 65px;
+  animation: bounceWhiteTail 1s infinite;
+  margin-left: 750px;
+  margin-top: 350px;
+  /* border: 1px solid black; */
+  z-index: 4;
+  border-radius: 50%;
+  /* transform: rotate(5deg); */
+}
+#spacer {
+  position: absolute;
+  width: 230px;
+  height: 170px;
+  animation: bounceWhiteTail 1s infinite;
+  margin-left: 530px;
+  margin-top: 285px;
+  /* border: 1px solid black; */
+  z-index: 6;
+  border-radius: 50%;
+  /* transform: rotate(5deg); */
+}
+#spacer2 {
+  position: absolute;
+  width: 270px;
+  height: 120px;
+  animation: bounceWhite 1s infinite;
+  margin-left: 490px;
+  margin-top: 200px;
+  /* border: 1px solid black; */
+  z-index: 6;
+  /* border-radius: 50%; */
+  /* transform: rotate(5deg); */
+}
+#head {
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  animation: bounce 1s infinite;
+  margin-left: 700px;
+  margin-top: 380px;
+  border-radius: 50%;
+  /* transform: rotate(-25deg); */
+  z-index: 3;
+}
+/* #snout {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  animation: bounce 1s infinite;
+  margin-left: 345px;
+  margin-top: 325px;
+  border-radius: 45%;
+  transform: rotate(-5deg);
+  z-index: 2;
+} */
+/* #neck {
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  animation: bounce 1s infinite;
+  margin: 500px;
+  margin-left: 670px;
+  margin-top: 450px;
+  border-radius: 45%;
+  z-index: 2;
+  transform: rotate(40deg);
+} */
+#body {
+  position: absolute;
+  width: 300px;
+  height: 175px;
+  animation: bounce 1s infinite;
+  margin-left: 540px;
+  margin-top: 330px;
+  border-radius: 50%;
+  transform: rotate(60deg);
+  z-index: 5;
+}
+#backBlock {
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  /* animation: bounce 1s infinite; */
+  margin-left: 550px;
+  margin-top: 450px;
+  border-radius: 40%;
+}
+#spacer3 {
+  position: absolute;
+  width: 200px;
+  height: 90px;
+  animation: bounceWhite 1s infinite;
+  margin-left: 490px;
+  margin-top: 365px;
+  /* border: 1px solid black; */
+  z-index: 6;
+  border-radius: 20%;
+  /* transform: rotate(5deg); */
+}
+#tail {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  animation: bounceTail 1s infinite;
+  margin: 450px;
+  margin-top: 330px;
+  margin-left: 550px;
+  border-radius: 50%;
+  transform: rotate(20deg);
+  z-index: 8;
+}
+#tailWhite {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  animation: bounceWhiteTailT 1s infinite;
+  margin: 450px;
+  margin-top: 327px;
+  margin-left: 600px;
+  border-radius: 50%;
+  transform: rotate(70deg);
+  z-index: 9;
+}
+#backThigh {
+  position: absolute;
+  width: 85px;
+  height: 110px;
+  animation: bounce 1s infinite;
+  margin: 450px;
+  margin-top: 440px;
+  margin-left: 565px;
+  border-radius: 50%;
+  transform: rotate(-30deg);
+}
+#backLegUpper {
+  position: absolute;
+  width: 35px;
+  height: 70px;
+  animation: bounceLeg 1.2s infinite;
+  margin: 450px;
+  margin-top: 505px;
+  margin-left: 595px;
+  border-radius: 30%;
+  transform: rotate(10deg);
+}
+#backLegLower {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  animation: bounceLeg 1.2s infinite;
+  margin: 450px;
+  margin-top: 560px;
+  margin-left: 590px;
+  border-radius: 50%;
+  transform: rotate(30deg);
+}
+/* #backTopFoot {
+  position: absolute;
+  width: 45px;
+  height: 25px;
+  animation: bounce 1s infinite;
+  margin: 450px;
+  margin-top: 640px;
+  margin-left: 520px;
+  border-radius: 50%;
+} */
+/* #frontTopUpper {
+  position: absolute;
+  width: 30px;
+  height: 80px;
+  animation: bounce 1s infinite;
+  margin: 450px;
+  margin-top: 550px;
+  margin-left: 650px;
+  border-radius: 40%;
+  transform: rotate(30deg);
+} */
+/* #frontTopLower {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  animation: bounce 1s infinite;
+  margin: 450px;
+  margin-top: 610px;
+  margin-left: 640px;
+  border-radius: 40%;
+  transform: rotate(-10deg);
+} */
+/* #frontTopFoot {
+  position: absolute;
+  width: 45px;
+  height: 25px;
+  animation: bounce 1s infinite;
+  margin: 450px;
+  margin-top: 635px;
+  margin-left: 645px;
+  border-radius: 50%;
+} */
+
+#frontLegUpper {
+  position: absolute;
+  width: 35px;
+  height: 70px;
+  animation: bounceLeg 1.1s infinite;
+  margin: 450px;
+  margin-top: 515px;
+  margin-left: 740px;
+  border-radius: 30%;
+  transform: rotate(-10deg);
+}
+#frontLegLower {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+  animation: bounceLeg 1.1s infinite;
+  margin: 450px;
+  margin-top: 565px;
+  margin-left: 750px;
+  border-radius: 50%;
+  /* transform: rotate(-10deg); */
+}
+
+@keyframes bounceB {
+  0%   {top: 0px; background: #6E3C31;}
+  /* 50%  {top: 10px; background: #6E3C31;} */
+  100% {top: 0px; background: #6E3C31;}
+}
+@keyframes bounce {
+  0%   {top: 0px; background: #6E3C31;}
+  50%  {top: 10px; background: #6E3C31;}
+  100% {top: 0px; background: #6E3C31;}
+}
+@keyframes bounceLeg {
+  0%   {top: 0px; background: #6E3C31;}
+  50%  {top: 10px; background: #6E3C31;}
+  100% {top: 0px; background: #6E3C31;}
+}
+@keyframes bounceWhite {
+  0%   {top: 0px; background: white;}
+  /* 50%  {top: 10px; background: white;} */
+  100% {top: 0px; background: white;}
+}
+@keyframes bounceWhiteTail {
+  0%   {top: 0px; background: white;}
+  50%  {top: 10px; background: white;}
+  100% {top: 0px; background: white;}
+}
+@keyframes bounceWhiteTailT {
+  0%   {top: 0px; background: white;}
+  50%  {top: 10px; background: white;}
+  100% {top: 0px; background: white;}
+}
+
+@keyframes bounceTail {
+  0%   {top: 0px; background: linear-gradient(to top, #6E3C31 70%, #ffffff);}
+  50%  {top: 10px; background: linear-gradient(to top, #6E3C31 70%, #ffffff); transform: rotate(30deg); margin-left: 560px;}
+  100% {top: 0px; background: linear-gradient(to top, #6E3C31 70%, #ffffff);}
+}
