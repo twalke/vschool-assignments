@@ -53,3 +53,17 @@ document.addEventListener("keydown", function(e) {
     box.style.backgroundColor = getRandomColor();
   }
 })
+
+var removeDuplicates = function(nums) {
+    var temp = nums[nums.length-1];
+    for (var i = nums.length-2; i >= 0; i--) {
+        if (nums[i] == temp) {
+            nums.splice(i, 1);
+        } else {
+            temp = nums[i];
+        }
+    }
+    return nums;
+};
+var nums = [1,1,1,2,2,3,3,5,5,6];
+removeDuplicates(nums);
