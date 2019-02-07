@@ -1,10 +1,15 @@
 const Canyon = function(canyon) {
   this._id = uuid();
   this.canyonName = canyon.canyonName;
+  this.state = canyon.state;
+  this.area = canyon.area;
+  this.coordinates = canyon.coordinates;
   this.rating = canyon.rating;
-  this.canyonTime = canyon.canyonTime;
-  this.canyonDistance = canyon.canyonDistance;
+  this.minTime = canyon.minTime;
+  this.maxTime = canyon.maxTime;
+  this.distance = canyon.distance;
   this.totalRaps = canyon.totalRaps;
+  this.longestRap = canyon.longestRap;
   this.description = canyon.description;
 }
 

@@ -5,13 +5,18 @@ const canyonSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  state: String,
+  area: String,
+  coordinates: String,
   rating :{
     type: String,
     required: true
   },
-  time: Number,
-  distance: Number,
-  raps: Number,
+  minTime: String,
+  maxTime: String,
+  distance: String,
+  totalRaps: Number,
+  longestRap: String,
   description: String
 });
 
